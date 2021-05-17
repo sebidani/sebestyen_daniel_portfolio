@@ -1,0 +1,116 @@
+a{
+	color: #ffffff;
+}
+a:link{
+	text-decoration:none;
+	text-decoration-color: none;
+}
+
+
+.menu{
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	background-color:  rgba(0, 0, 0, 0.8);
+	background-clip: padding-box;
+}
+
+.menugomb {
+	display: inline-block;
+	margin: 8px;
+	padding: 8px;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5vw;
+	color: #000000;
+	background-color: rgb(0, 0, 0);
+}
+
+.menugomb_aktiv{
+	display: inline-block;
+	background-color: #008360;
+	margin: 8px;
+	padding: 8px;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5vw;
+	color: white;
+}
+
+.menugomb:hover a{
+	color: rgb(0, 0, 0);
+}
+
+.menugomb:hover{
+	background-clip: padding-box;
+	background-color: #ffffff;
+	color: white;
+	padding: 8px;
+}
+
+.nev{
+	font-family: 'Times New Roman', cursive;
+	font-size: 8vw;
+	text-align: center;
+	margin-top: 40vh;
+	color:#ebebeb;
+}
+
+.cim{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 4vw;
+	margin-top: 2vh;
+	color:#008360;
+}
+
+.kep{
+	border: 5px solid #555;
+	width: 20vw;
+	margin-top: 3%;
+	margin-left: 4vw;
+}
+
+.lap{
+	background-image: url(../kepek/hatter.jpg);
+	background-repeat: repeat;
+}
+
+.tablazat{
+	padding-top: 5%;
+	padding-left: 10vw;
+	font-family: 'Lobster', cursive;
+	font-size: 3.5vw;
+	width:90vw
+}
+
+.tablazat_cim{
+	text-align: left;
+	padding-left: 10vw;
+	color: #008360;
+}
+
+.tablazat_kep{
+	border: 5px solid #555;
+	width:33vw;
+	margin-top: 30px;
+	margin-left: 3%;
+}
+
+.tablazat_szoveg{
+	width: 50%;
+	font-size: 1.8vw;
+	color:#ebebeb;
+	
+}
+
+.terv_cim{
+	color: #008360;
+}
+
+.terv_bekezdes{
+	font-size: 3vw;
+	text-align: left;
+	padding-left: 10%;
+	color:#ebebeb;
+}
